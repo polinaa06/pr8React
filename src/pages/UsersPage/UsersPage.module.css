@@ -1,0 +1,77 @@
+.users {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.block h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 15px;
+}
+
+.item_blue {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #0009EA;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.item_blue p {
+    color: white;
+    font-weight: 500;
+}
+
+.item p {
+    font-size: 22px;
+}
+
+.id {
+    width: 40px;
+}
+
+.name {
+    width: 350px;
+}
+
+.nickname {
+    width: 300px;
+}
+
+.email {
+    width: 400px;
+}
+
+.city {
+    width: 300px;
+}
+
+.error {
+    font-size: 20px;
+    padding: 100px 0;
+    text-align: center;
+}
